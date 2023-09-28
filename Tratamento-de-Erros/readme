@@ -1,0 +1,16 @@
+throw new Error ('message) : é assim que lançamos um erro, podemos usar por exemplo um if com "isNan"
+    - Throw: lançar
+    - New: novo
+    - Error: erro
+
+Try: é apenas a gente dizendo pro javascript tentar executar um codigo e caso contrario faça alguma coisa
+    - Precisamos usar um catch/finally junto, que vai ser executado caso ocorra algum erro
+
+Esses tratamentos de erro são utilizados para contornar os erros que acontecem nas aplicações, o "catch" podemo usar de formas mais elaboradas, como
+por exemplo, colocamos um param no catch:
+    - catch(error): entao vai mostrar a mensagem de erro que o node mostra, o erro que retorna tem também um atributo message que retorna o que esta faltando/qual foi o erro que aconteceu.
+        - catch(error.message)
+    
+Finally: e um bloco de codigo garantido que vai ser executado. Vai ser executado se der ou nao erro
+
+Essas funcionalidade são muito boas para fazer validação de entrada
