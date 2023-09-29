@@ -1,0 +1,20 @@
+Site: regex101
+Colocamos entre barras o conteudo a procurar ou pegar partes específicas de uma string. / ... /
+    temos as flags, que sao escritas depois das /.../g 
+        > global (/g): pega todos que encontrar
+        > insensitive (/i): torna case insensitive
+    > ^: inicio da string
+    > $: fim de linha/string
+    > x+: encontra o x e mais quantos tiverem
+    > .: pega 1 caracter qualquer, pode ser qualquer coisa
+    > \: valor literal
+    > \w: tudo que não é caracter especial, marca letras e numeros
+    > \W: inverso da superior, encontra tudo que não é letra ou numero
+    > \s: encontra espaços
+    > \S: encontra tudo que NAO é espaço
+    > []: agrupamento de regras, ex: [atb], procura todas essas letras, funciona como um | (or)
+    > {}: usamos para encontrar um valor x de quantidade, ex: a{1,3}: pega de 1 até 3 'a', \d{2}: pega 2 digitos numericos
+    > look ahead: (?=) positive look ahead, usamos para procurar por algo que vem dps de um valor determinado, ex, or (?=\s), vai achar tudo que tem or (espaço). Negative look ahead usamos (?!)
+    > Look behind (?<=), olha para tras, ex, (?<= L)
+
+Exemplo de substituição = phoneNumberStr.replace(/[\sa-zA-z]/g, "")
