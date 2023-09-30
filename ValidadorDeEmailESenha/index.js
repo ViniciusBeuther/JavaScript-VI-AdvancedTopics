@@ -47,7 +47,10 @@ const passwordIsValid = (password) => {
 try{
     console.log('=-=-=-=-=-=-=RESULT=-=-=-=-=-=-=')
     console.log('\t' + validateEmail('Vinicius15@gmail.com'))
-    console.log('\t' + passwordIsValid('Vi123!'))
+
+    console.log('\t' + passwordIsValid('P@ssw0rd'))
+    console.log('\t' + passwordIsValid('Senha123!'))
+
 } catch(error){
     console.log(error.message)
 } finally {
