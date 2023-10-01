@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #AEC6CF;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+div#form-background {
+  background-color: #F4BAC0;
+  padding: 25px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+div#form-background input {
+  outline: none;
+  padding: 5px;
+}
+div#form-background .btn-style {
+  background-color: #94d694;
+  border: none;
+  padding: 5px;
+  text-align: center;
+}
+div#form-background .btn-style:hover {
+  background-color: #4ac54a;
+  transition: 0.5s;
+  scale: 1.025;
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+div#form-background div#email-div label {
+  margin-right: 30px;
+}
+div#form-background div#password-div {
+  margin: 15px 0px;
+}
+div#form-background div#password-div .hide-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  height: 100%;
+  margin: auto;
+}
+div#form-background ul {
+  padding-left: 20px;
+}
+div#form-background ul li {
+  font-size: 12px;
+}
+div#form-background ul p {
+  font-size: 14px;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+.invalid-format {
+  border: solid 1px red;
+  color: red;
+  background-color: #ff9d9d;
+}
+
+.valid-format {
+  color: green;
+  border: solid 1px green;
+  background-color: #84da84;
+}/*# sourceMappingURL=style.css.map */

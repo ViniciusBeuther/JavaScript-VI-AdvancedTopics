@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email and Password validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form-background">
+        <h2 id="title">Validator</h2>
+        <div id="email-div">
+            <label for="email">
+                Email:
+            </label>
+            <input type="text" placeholder="xx@xx.xx" id="email-input">
+        </div>
+
+        <div id="password-div">
+            <label for="password">
+                Password:
+            </label>
+
+            <input type="text" name="password" id="password-input" placeholder="Password">
+            <button class="hide-btn">
+                <img src="img/eye_icon.png" alt="eye-icon">
+            </button>
+        </div>
+
+            <ul id="ul-list">
+                <p>
+                    <strong>
+                        Requirements
+                    </strong>
+                </p>
+                <li>At least 1 uppercase character</li>
+                <li>At least 1 lowercase character</li>
+                <li>At least 1 number</li>
+                <li>At least 1 special character</li>
+                <li>Less then 8 characters</li>
+                <br>
+            </ul>
+
+            <button class="btn-style" id="validate-button">Validate Fields</button>
+        </div>
+
+        
+    </div>
+    <script src="index.js" defer type="module"></script>
+</body>
+</html>
