@@ -1,0 +1,2 @@
+Um codigo sincrono é quando é executado linha por linha, de cima para baixo, de ordem crescente
+    O set time out roda de forma assíncrona, nao trava o código
