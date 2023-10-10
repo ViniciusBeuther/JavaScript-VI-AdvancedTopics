@@ -1,0 +1,17 @@
+Usamos as promises para chegar em um resultado, é usada para funções assincronas, onde o código continua sendo executado
+As promises tem os status:
+- Pending: A ser executada
+- Resolved: Foi executada e deu tudo certo e devolve um valor
+- Rejected: Foi executada mas algo deu errado ali no meio
+
+Sintaxe:
+- new Promise ((resolve, reject (Optinal)) => {
+  code...
+  resolve() // Encerra a promise e diz q deu tudo certo, é o que ele retorna.
+  reject() // Encerra dando um erro na promise
+})
+
+É muito utilizado no retorno de funcoes
+
+Conceito: 
+Uma Promise é um objeto JavaScript que representa a eventual conclusão (ou falha) de uma operação assíncrona e seu resultado. Ela serve para lidar com funções assíncronas, onde o código continua sendo executado enquanto a Promise é processada em segundo plano. As Promises têm três estados possíveis: Pending (a ser executada), Resolved (foi executada e deu tudo certo e devolve um valor) e Rejected (foi executada mas algo deu errado ali no meio). A sintaxe básica de uma Promise é new Promise((resolve, reject) => { ... }), onde resolve() é usado para encerrar a Promise e indicar que tudo ocorreu bem, enquanto reject() é usado para encerrar a Promise com um erro. As Promises são muito utilizadas no retorno de funções assíncronas.
