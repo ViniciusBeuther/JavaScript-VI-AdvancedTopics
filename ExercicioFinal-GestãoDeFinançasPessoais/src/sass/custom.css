@@ -67,14 +67,17 @@ input, select {
   height: 25px;
   display: grid;
   align-content: center;
+  font-weight: bold;
   background-color: transparent;
-  border: 1px solid #FF8C8C;
+  border: 2px solid #FF8C8C;
   color: #FF8C8C;
 }
 
 .remove-line-btn:hover {
   scale: 1.05;
   transition: 0.2s;
+  background-color: #FF8C8C;
+  color: #FAF7FF;
 }
 
 /*!
