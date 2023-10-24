@@ -26,8 +26,55 @@ select option {
   color: #FAF7FF;
 }
 
-input {
+input, select {
   outline: none;
+  color: #201E34;
+}
+
+.input-style::-moz-placeholder {
+  color: #201E34;
+}
+
+.input-style::placeholder {
+  color: #201E34;
+}
+
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-data {
+  border-bottom: 2px solid #201E34;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.remove-line-btn {
+  border-radius: 50px;
+  width: 25px;
+  margin-right: -5px;
+  height: 25px;
+  display: grid;
+  align-content: center;
+  background-color: transparent;
+  border: 1px solid #FF8C8C;
+  color: #FF8C8C;
+}
+
+.remove-line-btn:hover {
+  scale: 1.05;
+  transition: 0.2s;
 }
 
 /*!

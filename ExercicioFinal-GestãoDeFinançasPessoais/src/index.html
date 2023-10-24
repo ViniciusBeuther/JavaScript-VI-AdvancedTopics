@@ -12,7 +12,7 @@
 </head>
 <body class="bg-primary">
     <main class="container-fluid">
-        <section class="container bg-secundary d-flex flex-column justify-content-center align-items-center mt-5 pt-3 rounded-3 text-light-font " id="inputs-section">
+        <section class="container bg-secundary d-flex flex-column justify-content-center align-items-center mt-5 pt-3 rounded-3 text-light-font" id="inputs-section">
             <h1 class="title-font text-light-font text-decoration-underline ">Personal Finances</h1>
             <article class="d-flex flex-column container">
                 <label for="category" class="paragraph">Category</label>
@@ -29,6 +29,7 @@
                 </label>
             </article>
 
+            <!--Transactions-->
             <article class="d-flex flex-column container">
                 <label class="paragraph pt-2">Amount $</label>
                 <input type="text" name="amount-input" id="amount-input" placeholder="0.00" class="input-style rounded-2 border-0 p-1">
@@ -39,9 +40,9 @@
                 <input type="date" name="date-input" id="date-input" class="input-style rounded-2 border-0 p-1">
             </article>
 
-            <article class="d-flex flex-column container pb-3">
-                <label class="paragraph pt-2">Current Balance</label>
-                <input type="text" name="date-input" id="date-input" placeholder="$ 0.00" class="input-style rounded-2 border-0 p-1">
+            <article class="d-flex flex container pb-3 mt-3">
+                <label class="paragraph pt-2 mr-3">Current Balance:</label>
+                <input type="text" name="date-input" id="date-input" placeholder="$ 0.00" class="input-style fw-bold  rounded-2 border-0 p-1" disabled>
             </article>
 
             <div id="buttons-article" class="mb-3 w-100 d-flex justify-content-center">
@@ -56,25 +57,35 @@
         </section>
 
         <!--Transactions List-->
-        <section class="container bg-secundary d-flex flex-column mt-5 rounded-3 justify-content-center align-items-center">
+        <section class="container bg-secundary d-flex flex-column mt-5 rounded-3 justify-content-center align-items-center pb-3">
             <h1 class="title-font text-light-font text-decoration-underline">Transactions</h1>
 
-            <div class="table-div container d-flex flex-column bg-light" id="transaction-list">
-                <table id="transaction-table d-flex flex-column">
-                    <div id="table-header">
-                        <th class="table-header bg-table-header">Category</th>
-                        <th class="table-header bg-table-header">Amount</th>
-                        <th class="table-header bg-table-header">Date</th>
-                    </div>
-                    
-                    <tr class="table-row">
-                        <td class="table-data">Food</td>
-                        <td class="table-data">$ 100</td>
-                        <td class="table-data">13/11/2002</td>
+            <div class="table-container w-100 paragraph">
+                <table id="transaction-table" class="w-100">
+                <thead class="d-flex">
+                    <tr class="d-flex w-100 bg-light-font mb-2 rounded-3">
+                        <th class="table-header ">Category</th>
+                        <th class="table-header ">Amount</th>
+                        <th class="table-header">Date</th>
+                        <th class="pl-3 text-light-font">X</th>
                     </tr>
+                </thead>
+                <tbody class="d-flex flex-column" id="transaction-area">
+                    <tr class="table-row mb-3">
+                        <td class="table-data">Food</td>
+                        <td class="table-data">$100</td>
+                        <td class="table-data">
+                            13/11/2002
+                        </td>
+                        <td>
+                            <button class="remove-line-btn">X</button>
+                        </td>
+                    </tr>
+
+                </tbody>
                 </table>
             </div>
-        </section>
+
     </main>
 
     <!--My script-->
