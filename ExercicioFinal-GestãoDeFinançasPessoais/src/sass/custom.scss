@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+$title: 'Lobster', sans-serif;
+$paragraph: 'Open Sans', sans-serif;
+$danger: #FF8C8C;
+$primary: #201E34;
+$secundary: #8984EF;
+$light-font: #FAF7FF;
+
+$theme-colors: (
+  "primary": #201E34,
+  "secundary": #8984EF,
+  "light-font": #FAF7FF,
+  "table-header": #FFFADE,
+  "expense": #FF8C8C,
+  "earning": #DAFFAB
+);
+
+.title-font{
+  font-family: $title;
+}
+.paragraph{
+  font-family: $paragraph;
+}
+
+.btn-hover:hover{
+  scale: 1.025;
+  transition: 0.5s;
+  transform: translateY(-2px);
+}
+
+select option{
+  background-color: $primary;
+  color: $light-font;
+}
+
+input{
+  outline: none;
+}
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap');
