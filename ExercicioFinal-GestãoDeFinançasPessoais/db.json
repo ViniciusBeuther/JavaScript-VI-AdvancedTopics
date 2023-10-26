@@ -1,53 +1,18 @@
 {
   "transaction": [
     {
-      "id": 1,
-      "category": "Food",
-      "amount": 10,
-      "date": "24/10/2023",
-      "type": "Expense"
-    },
-    {
-      "id": 2,
-      "category": "Investment",
-      "amount": 400,
-      "date": "24/10/2023",
-      "type": "Expense"
-    },
-    {
       "category": "bill",
-      "amount": "150",
+      "amount": "10",
       "date": "2002-11-13",
       "type": "Expense",
-      "id": 3
+      "id": 1
     },
     {
-      "category": "health",
+      "category": "investment",
       "amount": "100",
-      "date": "2021-06-05",
-      "type": "Expense",
-      "id": 4
-    },
-    {
-      "category": "transport",
-      "amount": "100",
-      "date": "2023-11-13",
-      "type": "Expense",
-      "id": 5
-    },
-    {
-      "category": "salary",
-      "amount": "1000",
-      "date": "2023-10-25",
+      "date": "2002-11-13",
       "type": "Earning",
-      "id": 6
-    },
-    {
-      "category": "leisure",
-      "amount": "75",
-      "date": "2023-11-28",
-      "type": "Expense",
-      "id": 7
+      "id": 2
     }
   ]
 }
