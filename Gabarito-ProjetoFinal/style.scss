@@ -1,0 +1,27 @@
+
+$primary: #8984EF;
+$dark-background: #201E34;
+$text-color: #FAF7FF;
+$light-header: #FFFADE;
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding-top: 2rem;
+
+    h1{
+        background-color: $light-header;
+        color: $dark-background;
+        width: 100%;
+        text-align: center;
+    }
+}

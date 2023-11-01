@@ -1,95 +1,22 @@
 {
   "transaction": [
     {
-      "category": "bill",
-      "amount": "10",
-      "date": "2002-11-13",
-      "type": "Expense",
-      "id": 1
-    },
-    {
-      "category": "investment",
-      "amount": "100",
-      "date": "2002-11-13",
-      "type": "Earning",
-      "id": 2
+      "id": 1,
+      "category": "Salary",
+      "amount": 1000,
+      "date": "31/10/2023"
     },
     {
       "id": 2,
-      "category": "Investment",
-      "amount": 400,
-      "date": "24/10/2023",
-      "type": "expense"
+      "category": "Bill",
+      "amount": -150,
+      "date": "31/10/2023"
     },
     {
-      "category": "investment",
-      "amount": 350,
-      "date": "2023-10-30",
-      "type": "Expense",
-      "id": 3
-    },
-    {
-      "category": "investment",
-      "amount": 350,
-      "date": "2023-10-30",
-      "type": "Expense",
-      "id": 4
-    },
-    {
-      "category": "health",
-      "amount": 10,
-      "date": "2023-12-10",
-      "type": "Expense",
-      "id": 5
-    },
-    {
-      "category": "health",
-      "amount": 10,
-      "date": "2023-12-10",
-      "type": "Expense",
-      "id": 6
-    },
-    {
-      "category": "bill",
-      "amount": 10,
-      "date": "2023-10-30",
-      "type": "",
-      "id": 7
-    },
-    {
-      "category": "bill",
-      "amount": 10,
-      "date": "2023-10-30",
-      "type": "",
-      "id": 8
-    },
-    {
-      "category": "salary",
-      "amount": 500,
-      "date": "2023-11-13",
-      "type": "",
-      "id": 9
-    },
-    {
-      "category": "salary",
-      "amount": 500,
-      "date": "2023-11-13",
-      "type": "",
-      "id": 10
-    },
-    {
-      "category": "investment",
-      "amount": 7,
-      "date": "2002-11-13",
-      "type": "",
-      "id": 11
-    },
-    {
-      "category": "investment",
-      "amount": 7,
-      "date": "2002-11-13",
-      "type": "",
-      "id": 12
+      "id": 3,
+      "category": "Food",
+      "amount": -200,
+      "date": "31/10/2023"
     }
   ]
 }
