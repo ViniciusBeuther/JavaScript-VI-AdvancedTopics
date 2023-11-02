@@ -9,4 +9,5 @@ function createTransactionCategory(category){
     const category = document.createElement('rd');
     category.classList.add('table-data');
     
+    
 }
