@@ -8,6 +8,17 @@ function createTransactionRow(id){
 function createTransactionCategory(category){
     const category = document.createElement('rd');
     category.classList.add('table-data');
-    
-    
+    return category
+}
+
+function createTransactionAmount(amount){
+    const amountData = document.createElement('rd');
+    amountData.classList.add('table-data');
+    return amountData
+}
+
+function createTransactionDate(date){
+    const dateData = document.createElement('rd');
+    dateData.classList.add('table-data');
+    return dateData
 }
