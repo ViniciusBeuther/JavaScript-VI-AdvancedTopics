@@ -22,3 +22,7 @@ function createTransactionDate(date){
     dateData.classList.add('table-data');
     return dateData
 }
+
+function renderTransaction(transaction){
+    
+}
