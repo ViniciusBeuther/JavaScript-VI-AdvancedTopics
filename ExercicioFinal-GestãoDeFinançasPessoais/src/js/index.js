@@ -25,4 +25,6 @@ function createTransactionDate(date){
 
 function renderTransaction(transaction){
     
+
+    
 }
